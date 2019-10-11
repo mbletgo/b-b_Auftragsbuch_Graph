@@ -7,5 +7,5 @@ try:
 except ValueError:
     print("Keine Integer! Bitte nochmals versuchen ...")
 
-
+# just adding a comment
 print(x)
