@@ -31,10 +31,7 @@ try:
 except Exception:
  #print(e)
         #time_log("Couldn't connect to db! Check settings!")
- exit(2)
-
-
-
+exit(2)
 
 matcher = NodeMatcher(graph)
 
@@ -111,9 +108,3 @@ for x in range(2, 7053):
 
     vierteNode = Node(matcher.match("Kunde",name=listeVorhandenLieferanten[q]))
     graph.cypher.execute("CREATE (vierteNode)-[r:AUFTRAG]->(f)")
-
-
-  # vorhanden Knoten aus Graph besorgen
-  # solte der knoten sein
-  #s = Node()
-  #matcher.match("Kunde", name="")
