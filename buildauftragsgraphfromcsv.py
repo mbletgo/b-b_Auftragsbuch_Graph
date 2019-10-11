@@ -3,6 +3,10 @@ from openpyxl import load_workbook
 from py2neo.data import Node, Relationship
 from py2neo import  NodeMatcher, Database, Graph
 
+#dies ist nur im experimentellen branch.
+# und noch mehr nur hier drin. 
+
+
 
 # Workbook laden
 wb = load_workbook('/Users/m_b/Programmieren_Python/b+b_auftragsbuch/Teil A-D ABuch.xlsx')
