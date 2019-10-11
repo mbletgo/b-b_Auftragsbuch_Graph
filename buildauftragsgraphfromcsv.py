@@ -6,6 +6,8 @@ from py2neo import  NodeMatcher, Database, Graph
 
 # Workbook laden
 wb = load_workbook('/Users/m_b/Programmieren_Python/b+b_auftragsbuch/Teil A-D ABuch.xlsx')
+#hier gehört das cvs hin
+
 
 # test: die sheet namen ausgeben
 #print(wb.sheetnames)
